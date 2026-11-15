@@ -1,0 +1,6 @@
+{"name":"Kestrel Pay","leaver":"asha","last_day":"2026-10-15","sources":[
+ {"file":"github_commits.json","name":"repo/github-commits.json","acl":"team","kind":"git","origin":"GitHub API (synthetic)"},
+ {"file":"meeting_notes.md","name":"notes/engineering-notes.md","acl":"team","kind":"notes","origin":"markdown notes"},
+ {"file":"tasks.json","name":"board/tasks.json","acl":"team","kind":"tasks","origin":"task-board export"},
+ {"file":"chat_vendor_private.json","name":"chat/#vendor-private.json","acl":"confidential","kind":"chat","origin":"chat export"},
+ {"file":"README.md","name":"README.md","acl":"public","kind":"doc","origin":"repo README"}]}

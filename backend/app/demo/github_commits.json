@@ -1,0 +1,158 @@
+[
+ {
+  "sha": "5f729db",
+  "commit": {
+   "author": {
+    "name": "Meera",
+    "date": "2026-10-10T10:00:00Z"
+   },
+   "message": "admin: dashboard release notes"
+  },
+  "author": {
+   "login": "meera"
+  }
+ },
+ {
+  "sha": "4e618ca",
+  "commit": {
+   "author": {
+    "name": "Asha",
+    "date": "2026-10-09T10:00:00Z"
+   },
+   "message": "payments: invoice export first draft"
+  },
+  "author": {
+   "login": "asha"
+  }
+ },
+ {
+  "sha": "3d507b9",
+  "commit": {
+   "author": {
+    "name": "Ravi",
+    "date": "2026-10-07T10:00:00Z"
+   },
+   "message": "deploy: rotate TLS certificate manually (expires Dec 3)"
+  },
+  "author": {
+   "login": "ravi"
+  }
+ },
+ {
+  "sha": "2c4f6a8",
+  "commit": {
+   "author": {
+    "name": "Asha",
+    "date": "2026-10-03T10:00:00Z"
+   },
+   "message": "deploy scripts: owner is Ravi? unsure after Render move"
+  },
+  "author": {
+   "login": "asha"
+  }
+ },
+ {
+  "sha": "1b3e5f6",
+  "commit": {
+   "author": {
+    "name": "Asha",
+    "date": "2026-09-26T10:00:00Z"
+   },
+   "message": "payments: add idempotency keys to charge endpoint"
+  },
+  "author": {
+   "login": "asha"
+  }
+ },
+ {
+  "sha": "0a9d7e4",
+  "commit": {
+   "author": {
+    "name": "Ravi",
+    "date": "2026-09-21T10:00:00Z"
+   },
+   "message": "ci: tests are flaky on webhook retry, risk of silent payment failures"
+  },
+  "author": {
+   "login": "ravi"
+  }
+ },
+ {
+  "sha": "f66c0d2",
+  "commit": {
+   "author": {
+    "name": "Meera",
+    "date": "2026-09-18T10:00:00Z"
+   },
+   "message": "admin: add dashboard filters"
+  },
+  "author": {
+   "login": "meera"
+  }
+ },
+ {
+  "sha": "e18a2b3",
+  "commit": {
+   "author": {
+    "name": "Asha",
+    "date": "2026-09-14T10:00:00Z"
+   },
+   "message": "payments: refactor ledger service"
+  },
+  "author": {
+   "login": "asha"
+  }
+ },
+ {
+  "sha": "d94b5f1",
+  "commit": {
+   "author": {
+    "name": "Asha",
+    "date": "2026-09-10T10:00:00Z"
+   },
+   "message": "payments: migrated database to MongoDB for faster prototyping"
+  },
+  "author": {
+   "login": "asha"
+  }
+ },
+ {
+  "sha": "c0e8a77",
+  "commit": {
+   "author": {
+    "name": "Ravi",
+    "date": "2026-09-02T10:00:00Z"
+   },
+   "message": "deploy: switch hosting to Render"
+  },
+  "author": {
+   "login": "ravi"
+  }
+ },
+ {
+  "sha": "b72d104",
+  "commit": {
+   "author": {
+    "name": "Asha",
+    "date": "2026-08-19T10:00:00Z"
+   },
+   "message": "payments: add webhook retry queue (depends on vendor sandbox)\n\nretries with backoff"
+  },
+  "author": {
+   "login": "asha"
+  }
+ },
+ {
+  "sha": "a1f3c9e",
+  "commit": {
+   "author": {
+    "name": "Asha",
+    "date": "2026-08-04T10:00:00Z"
+   },
+   "message": "payments: use PostgreSQL as the database"
+  },
+  "author": {
+   "login": "asha"
+  }
+ }
+]

@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: baton
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: BATON_LLM
+        value: "off"   # set to on and add ANTHROPIC_API_KEY to enable Claude-assisted extraction

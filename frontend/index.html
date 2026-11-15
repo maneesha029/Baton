@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Baton: evidence-linked knowledge handover</title>
+<meta name="description" content="Baton rebuilds a project from scattered evidence, makes a human verify every claim, and hands over only what the successor may see.">
+<meta name="theme-color" content="#05070a">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%2305070a'/%3E%3Crect x='13' y='5' width='6' height='22' rx='3' fill='%23ff5a4d'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&family=Special+Elite&display=swap" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/screens.css">
+<script type="importmap">{"imports":{"three":"./vendor/three.module.js","three/addons/":"./vendor/jsm/"}}</script>
+</head>
+<body>
+<canvas id="gl" aria-hidden="true"></canvas>
+<div id="labels" aria-hidden="true"></div>
+<div class="vignette"></div>
+<div class="app">
+  <header class="top">
+    <div class="brand" data-act="go" data-r="landing" role="link" tabindex="0" aria-label="Baton home"><i>B</i><span>BATON</span></div>
+    <div class="case" id="casechip"></div>
+    <div class="sp"></div>
+    <button class="iconbtn" data-act="tour" id="tourbtn" title="Scripted tour using the live API">▶ Tour</button>
+    <div class="seg" id="dial" role="group" aria-label="Preview as clearance"><span class="pill-bg"></span>
+      <button data-act="role" data-role="guest">Guest</button><button data-act="role" data-role="developer">Developer</button><button data-act="role" data-role="manager">Manager</button></div>
+    <div class="ring" id="ring" role="img" aria-label="Handover readiness"><span>0%</span></div>
+    <button class="iconbtn" data-act="palette" aria-label="Command palette"><kbd>⌘K</kbd></button>
+    <button class="iconbtn" data-act="sound" id="sndbtn" aria-pressed="true">SND</button>
+  </header>
+  <nav class="rail" id="rail" aria-label="Stages"><i id="baton"></i></nav>
+  <main class="stage" id="stage" tabindex="-1"></main>
+  <div class="nba glass" id="nba"></div>
+</div>
+<aside id="insp" aria-label="Evidence inspector"></aside>
+<dialog id="dlg"></dialog>
+<div id="iris"></div><div id="toast" role="status"></div><div id="cap" role="status"></div><div id="tip"></div>
+<noscript><p style="position:relative;z-index:9;padding:30px">Baton needs JavaScript. The 3D map and every screen run in the browser against the local API.</p></noscript>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

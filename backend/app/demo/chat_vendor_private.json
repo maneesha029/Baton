@@ -1,0 +1,25 @@
+{
+ "channel": "#vendor-private",
+ "messages": [
+  {
+   "ts": "2026-09-28T09:10:00Z",
+   "user": "asha",
+   "text": "vendor pricing: renewal costs 4,200 USD, contact priya@vendorco.com, key sk_live_9f8e7d6c5b4a"
+  },
+  {
+   "ts": "2026-09-29T09:12:00Z",
+   "user": "kavya",
+   "text": "Decided to renegotiate vendor contract before Nov 15"
+  },
+  {
+   "ts": "2026-10-02T15:30:00Z",
+   "user": "kavya",
+   "text": "Risk: if renewal exceeds budget we drop the vendor entirely"
+  },
+  {
+   "ts": "2026-10-04T11:05:00Z",
+   "user": "asha",
+   "text": "I handle the vendor relationship; nobody else has the contact"
+  }
+ ]
+}

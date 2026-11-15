@@ -1,0 +1,11 @@
+{
+ "attributes": {
+  "Database": {"nouns": ["database", "db"], "values": ["PostgreSQL", "MongoDB", "MySQL", "SQLite", "DynamoDB"]},
+  "Hosting": {"nouns": ["hosting", "host"], "values": ["Render", "Heroku", "Vercel", "AWS", "Fly.io", "Netlify"]},
+  "CI": {"nouns": ["ci", "pipeline"], "values": ["GitHub Actions", "CircleCI", "Jenkins", "GitLab CI"]},
+  "Queue": {"nouns": ["queue", "broker"], "values": ["RabbitMQ", "SQS", "Kafka", "Redis"]},
+  "Auth": {"nouns": ["auth", "login", "sso"], "values": ["Auth0", "Okta", "Firebase Auth", "Cognito"]}
+ },
+ "risk_words": ["risk", "blocked", "flaky", "expires", "expire", "sunsets", "sunset", "deprecated", "outage", "breach", "fails", "failing"],
+ "decision_words": ["decided", "agreed", "decision", "going with", "we will"]
+}

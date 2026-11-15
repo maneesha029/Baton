@@ -1,0 +1,50 @@
+{
+ "board": "Kestrel Pay sprint 14",
+ "tasks": [
+  {
+   "id": "T-12",
+   "title": "Payments webhook retry",
+   "owner": null,
+   "status": "blocked",
+   "blocked_by": "vendor sandbox",
+   "updated": "2026-10-05"
+  },
+  {
+   "id": "T-15",
+   "title": "Admin dashboard",
+   "owner": "Meera",
+   "status": "in progress",
+   "updated": "2026-10-06"
+  },
+  {
+   "id": "T-17",
+   "title": "Deploy runbook",
+   "owner": null,
+   "status": "todo",
+   "updated": "2026-10-08"
+  },
+  {
+   "id": "T-18",
+   "title": "Deploy scripts",
+   "owner": "Asha",
+   "status": "in progress",
+   "updated": "2026-10-08"
+  },
+  {
+   "id": "T-19",
+   "title": "Invoice export",
+   "owner": "Asha",
+   "status": "in progress",
+   "due": "2026-10-30",
+   "updated": "2026-10-09"
+  },
+  {
+   "id": "T-21",
+   "title": "Rotate TLS certificate",
+   "owner": null,
+   "status": "todo",
+   "due": "2026-12-03",
+   "updated": "2026-10-09"
+  }
+ ]
+}
